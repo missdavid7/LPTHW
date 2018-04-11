@@ -1,0 +1,17 @@
+
+# Behind the scenes(1)
+x = ["a","b","c"]
+y=x
+y[1] = "z"
+y
+['a','z','c']
+x
+['a','z','c']
+
+
+# Behind the scenes(2)
+x = ["a","b","c"]
+y = list (x)
+y = x[:]
+x
+['a','b','c']
